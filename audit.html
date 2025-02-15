@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GenIA - Audit Gratuit</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Logo GenIA">
+        </a>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-cta" id="navCta">
+        <a href="#form-audit" class="btn-cta">Demandez votre audit gratuit</a>
+      </div>
+      <div class="burger" id="burgerMenu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="audit-hero fade-in">
+    <div class="container audit-hero-content">
+      <h1 class="audit-hero-title">
+        Transformez vos processus avec un <span class="highlight">audit IA GRATUIT</span>
+      </h1>
+      <p class="audit-hero-subtitle">
+        Profitez d’une analyse personnalisée de vos processus sans engagement.
+      </p>
+      <a href="#form-audit" class="btn-hero-audit">Demandez votre audit gratuit maintenant</a>
+      <div class="audit-hero-visual">
+        <!-- <img src="images/audit-hero-visual.png" alt="Illustration Audit IA" /> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULAIRE D'AUDIT -->
+  <section class="audit-form-section fade-in" id="form-audit">
+    <div class="container form-audit-wrapper">
+      <div class="form-intro">
+        <h2>Demandez votre audit gratuit</h2>
+        <p>
+          Remplissez le formulaire ci-dessous et notre équipe vous contactera sous 48h.
+        </p>
+      </div>
+      <div class="form-audit-container">
+        <form action="#" method="POST" class="audit-form" id="auditForm">
+          <label for="nom">Nom <span class="required">*</span></label>
+          <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+          
+          <label for="email">Email <span class="required">*</span></label>
+          <input type="email" id="email" name="email" placeholder="Votre adresse email" required>
+          
+          <label for="telephone">Téléphone</label>
+          <input type="tel" id="telephone" name="telephone" placeholder="Votre numéro de téléphone">
+          
+          <label for="besoin">Décrivez votre besoin</label>
+          <textarea id="besoin" name="besoin" rows="4" placeholder="Vos commentaires ou question(s)..."></textarea>
+          
+          <button type="submit" class="btn-form-submit">Envoyer ma demande</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- COORDONNÉES -->
+  <section class="contact-info-section fade-in">
+    <div class="container">
+      <h2 class="contact-title">Nos coordonnées</h2>
+      <p><strong>Email :</strong> <a href="mailto:contact@votredomaine.com">contact@votredomaine.com</a></p>
+      <p class="contact-phone"><strong>Téléphone :</strong> +33 1 23 45 67 89</p>
+      <p class="contact-address"><strong>Adresse :</strong> 123 Rue de l’IA, 75000 Paris</p>
+      <div class="coords-social">
+        <a href="#" aria-label="LinkedIn" class="social-link">
+          <img src="images/icon-linkedin.png" alt="LinkedIn" />
+        </a>
+        <a href="#" aria-label="Twitter" class="social-link">
+          <img src="images/icon-twitter.png" alt="Twitter" />
+        </a>
+      </div>
+      <!-- Optionnel : intégrer une carte Google Maps via iframe -->
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-contact">
+        <p><strong>Email :</strong> <a href="mailto:info@votredomaine.com">info@votredomaine.com</a></p>
+        <p><strong>Téléphone :</strong> <span>+33 1 23 45 67 89</span></p>
+      </div>
+      <div class="footer-social">
+        <a href="#" aria-label="LinkedIn" class="social-link">
+          <img src="images/icon-linkedin.png" alt="LinkedIn" />
+        </a>
+        <a href="#" aria-label="Twitter" class="social-link">
+          <img src="images/icon-twitter.png" alt="Twitter" />
+        </a>
+      </div>
+      <div class="footer-legal">
+        <a href="content/mentions.txt" target="_blank">Mentions légales</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script JS commun -->
+  <script src="js/main.js"></script>
+</body>
+</html>
